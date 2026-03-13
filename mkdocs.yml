@@ -6,6 +6,7 @@ repo_url: https://github.com/RedGamer887/portfolio_ai
 
 theme:
   name: material
+  language: pl
   icon:
     logo: material/account-circle
   palette:
@@ -33,31 +34,26 @@ plugins:
   - i18n:
       default_language: pl
       languages:
-        - code: pl
-          name: Polski
-          locale: pl_PL
-          default: true
-          build: true
-        - code: en
-          name: English
-          locale: en_US
-          default: false
-          build: true
+        - pl
+        - en
 
 nav:
-  - PL:
-      - Główna strona: pl/index.md
-      - Projekty z kursu:
-          - "NaszGPT": pl/naszgpt/index.md
-          - "Audio Notatki": pl/audio_notes/index.md
-      - Projekty indywidualne:
-          - "Audio & Wideo": pl/audio_video_summary/index.md
-          - "Poszukiwanie pracy": pl/oferty_pracy/index.md
-  - EN:
-      - Home: en/index.md
-      - Course Projects:
-          - "NaszGPT": en/naszgpt/index.md
-          - "Audio Notes": en/audio_notes/index.md
-      - Personal Projects:
-          - "Audio & Video": en/audio_video_summary/index.md
-          - "Job Search": en/oferty_pracy/index.md
+  pl:
+    - Główna strona: pl/index.md
+    - Projekty z kursu:
+        - "NaszGPT": pl/naszgpt/index.md
+        - "Audio Notatki": pl/audio_notes/index.md
+        - "Wyszukiwanie znajomych": pl/find_friends/index.md
+    - Projekty indywidualne:
+        - "Audio & Wideo": pl/audio_video_summary/index.md
+        - "Poszukiwanie pracy": pl/oferty_pracy/index.md
+
+  en:
+    - Home: en/index.md
+    - Course Projects:
+        - "NaszGPT": en/naszgpt/index.md
+        - "Audio Notes": en/audio_notes/index.md
+        - "Find Friends": en/find_friends/index.md
+    - Personal Projects:
+        - "Audio & Video": en/audio_video_summary/index.md
+        - "Job Search": en/oferty_pracy/index.md
