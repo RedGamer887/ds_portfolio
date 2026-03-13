@@ -31,14 +31,15 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-      default: pl
+      default_language: pl
       languages:
-        - name: Polski
-          locale: pl
+        - code: pl
+          name: Polski
+          locale: pl_PL
           build: true
-          default: true
-        - name: English
-          locale: en
+        - code: en
+          name: English
+          locale: en_US
           build: true
 
 nav:
