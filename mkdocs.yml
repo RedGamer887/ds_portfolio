@@ -29,13 +29,13 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
-plugins:
-  - i18n:
-      languages:
-        - locale: pl
-          name: Polish
-          default: true
-          build: true
-        - locale: en
-          name: English
-          build: true
+# plugins:
+#   - i18n:
+#       languages:
+#         - locale: pl
+#           name: Polish
+#           default: true
+#           build: true
+#         - locale: en
+#           name: English
+#           build: true
