@@ -36,12 +36,10 @@ plugins:
   - i18n:
       default_language: pl
       languages:
-        - code: pl
+        - locale: pl_PL
           name: Polski
-          locale: pl_PL
           default: true
           build: true
-        - code: en
+        - locale: en_US
           name: English
-          locale: en_US
           build: true
