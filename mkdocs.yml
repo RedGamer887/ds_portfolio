@@ -33,9 +33,10 @@ markdown_extensions:
   - pymdownx.superfences
 
 plugins:
-  - search
   - i18n:
       default_language: pl
       languages:
-        pl: Polski
-        en: English
+        - code: pl
+          name: Polski
+        - code: en
+          name: English
