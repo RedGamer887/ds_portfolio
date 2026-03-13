@@ -23,11 +23,11 @@ theme:
   features:
     - palette
 
-markdown_extensions:
-  - attr_list
-  - admonition
-  - pymdownx.details
-  - pymdownx.superfences
+# markdown_extensions:
+#   - attr_list
+#   - admonition
+#   - pymdownx.details
+#   - pymdownx.superfences
 
 plugins:
   - i18n:
