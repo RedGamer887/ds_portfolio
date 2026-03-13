@@ -1,8 +1,8 @@
-- Home: en/index.md
+- Home: index.md
 - Course projects:
-    - "NaszGPT": en/naszgpt/index.md
-    - "Audio Notes": en/audio_notes/index.md
-    - "Find Friends": en/find_friends/index.md
+    - "NaszGPT": naszgpt/index.md
+    - "Audio Notes": audio_notes/index.md
+    - "Find Friends": find_friends/index.md
 - Individual projects:
-    - "Audio & Video": en/audio_video_summary/index.md
-    - "Job Offers": en/oferty_pracy/index.md
+    - "Audio & Video": audio_video_summary/index.md
+    - "Job Offers": oferty_pracy/index.md
