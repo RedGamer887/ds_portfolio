@@ -23,6 +23,9 @@ theme:
   features:
     - palette
 
+nav:
+  - Główna strona: pl/index.md
+
 markdown_extensions:
   - attr_list
   - admonition
@@ -36,24 +39,3 @@ plugins:
       languages:
         - pl
         - en
-
-nav:
-  pl:
-    - Główna strona: pl/index.md
-    - Projekty z kursu:
-        - "NaszGPT": pl/naszgpt/index.md
-        - "Audio Notatki": pl/audio_notes/index.md
-        - "Wyszukiwanie znajomych": pl/find_friends/index.md
-    - Projekty indywidualne:
-        - "Audio & Wideo": pl/audio_video_summary/index.md
-        - "Poszukiwanie pracy": pl/oferty_pracy/index.md
-
-  en:
-    - Home: en/index.md
-    - Course Projects:
-        - "NaszGPT": en/naszgpt/index.md
-        - "Audio Notes": en/audio_notes/index.md
-        - "Find Friends": en/find_friends/index.md
-    - Personal Projects:
-        - "Audio & Video": en/audio_video_summary/index.md
-        - "Job Search": en/oferty_pracy/index.md
