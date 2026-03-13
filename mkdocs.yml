@@ -45,5 +45,8 @@ plugins:
       languages:
         - code: pl 
           name: Polski
+          locale: pl_PL
+
         - code: en
           name: English
+          locale: en_US
