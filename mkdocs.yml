@@ -22,24 +22,6 @@ theme:
   features:
     - palette
 
-nav:
-  - PL:
-      - Główna strona: pl/index.md
-      - Projekty z kursu:
-          - "NaszGPT": pl/naszgpt/index.md
-          - "Audio Notatki": pl/audio_notes/index.md
-      - Projekty indywidualne:
-          - "Audio & Wideo": pl/audio_video_summary/index.md
-          - "Poszukiwanie pracy": pl/oferty_pracy/index.md
-  - EN:
-      - Home: en/index.md
-      - Course Projects:
-          - "NaszGPT": en/naszgpt/index.md
-          - "Audio Notes": en/audio_notes/index.md
-      - Personal Projects:
-          - "Audio & Video": en/audio_video_summary/index.md
-          - "Job Search": en/oferty_pracy/index.md
-
 markdown_extensions:
   - attr_list
   - admonition
@@ -58,3 +40,21 @@ plugins:
         - name: English
           locale: en
           build: true
+
+nav:
+  - PL:
+      - Główna strona: pl/index.md
+      - Projekty z kursu:
+          - "NaszGPT": pl/naszgpt/index.md
+          - "Audio Notatki": pl/audio_notes/index.md
+      - Projekty indywidualne:
+          - "Audio & Wideo": pl/audio_video_summary/index.md
+          - "Poszukiwanie pracy": pl/oferty_pracy/index.md
+  - EN:
+      - Home: en/index.md
+      - Course Projects:
+          - "NaszGPT": en/naszgpt/index.md
+          - "Audio Notes": en/audio_notes/index.md
+      - Personal Projects:
+          - "Audio & Video": en/audio_video_summary/index.md
+          - "Job Search": en/oferty_pracy/index.md
