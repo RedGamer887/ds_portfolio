@@ -35,10 +35,10 @@ markdown_extensions:
 plugins:
   - i18n:
       languages:
-        - locale: pl
+        - locale: pl_PL
           name: Polish
           default: true
           build: true
-        - locale: en
+        - locale: en_US
           name: English
           build: true
