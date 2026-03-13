@@ -43,5 +43,7 @@ plugins:
   - i18n:
       default_language: pl
       languages:
-        pl: Polski
-        en: English
+        pl: 
+          name: Polski
+        en:
+          name: English
