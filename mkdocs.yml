@@ -22,15 +22,7 @@ theme:
   features:
     - palette
 
-nav:
-- Główna strona: index.md
-- Projekty z kursu:
-  - "NaszGPT": naszgpt/index.md
-  - "Audio notatki": audio_notes/index.md
-  - "Wyszukiwanie znajomych": find_friends/index.md
-- Projekty indywidualne:
-  - "Audio & Wideo": audio_video_summary/index.md
-  - "Poszukiwanie pracy": oferty_pracy/index.md
+nav: []
 
 markdown_extensions:
   - attr_list
@@ -41,15 +33,12 @@ markdown_extensions:
 plugins:
   - search
   - i18n:
-      default_language: pl
+      default: pl
       languages:
-        - code: pl
-          name: Polski
-          locale: pl_PL
-          default: true
+        - name: Polski
+          locale: pl
           build: true
-        - code: en
-          name: English
-          locale: en_US
-          default: false
+          default: true
+        - name: English
+          locale: en
           build: true
