@@ -32,10 +32,10 @@ markdown_extensions:
 plugins:
   - i18n:
       languages:
-        - locale: en
-          name: English
-          build: true
         - locale: pl
           name: Polish
           default: true
+          build: true
+        - locale: en
+          name: English
           build: true
