@@ -24,7 +24,7 @@ theme:
     - palette
 
 nav:
-  - Główna strona: pl/index.md
+  - include: pl/nav.yml
 
 markdown_extensions:
   - attr_list
@@ -37,5 +37,7 @@ plugins:
   - i18n:
       default_language: pl
       languages:
-        - pl
-        - en
+        - code: pl
+          name: Polski
+        - code: en
+          name: English
