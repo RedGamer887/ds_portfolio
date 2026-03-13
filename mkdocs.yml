@@ -23,9 +23,6 @@ theme:
   features:
     - palette
 
-nav:
-  - include: pl/nav.yml
-
 markdown_extensions:
   - attr_list
   - admonition
