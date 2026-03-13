@@ -6,6 +6,7 @@ repo_url: https://github.com/RedGamer887/ds_portfolio
 
 theme:
   name: material
+  language: pl
   icon:
     logo: material/account-circle
   palette:
