@@ -37,7 +37,5 @@ plugins:
   - i18n:
       default_language: pl
       languages:
-        - code: pl
-          name: Polski
-        - code: en
-          name: English
+        pl: Polski
+        en: English
