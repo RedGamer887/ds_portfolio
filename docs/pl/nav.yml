@@ -1,8 +1,8 @@
-- Główna strona: pl/index.md
+- Główna strona: index.md
 - Projekty z kursu:
-    - "NaszGPT": pl/naszgpt/index.md
-    - "Audio notatki": pl/audio_notes/index.md
-    - "Wyszukiwanie znajomych": pl/find_friends/index.md
+    - "NaszGPT": naszgpt/index.md
+    - "Audio notatki": audio_notes/index.md
+    - "Wyszukiwanie znajomych": find_friends/index.md
 - Projekty indywidualne:
-    - "Audio & Wideo": pl/audio_video_summary/index.md
-    - "Poszukiwanie pracy": pl/oferty_pracy/index.md
+    - "Audio & Wideo": audio_video_summary/index.md
+    - "Poszukiwanie pracy": oferty_pracy/index.md
